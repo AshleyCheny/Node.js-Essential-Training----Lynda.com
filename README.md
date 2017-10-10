@@ -1,5 +1,5 @@
 # NodeTraining
-This is a course from Lynda.com
+[This is a course from Lynda.com]()
 
 ## What is Node.js?
 ### Node.js history
@@ -34,3 +34,13 @@ This is a course from Lynda.com
 - `setTimeout()`
 - `setInterval()`
 - `clearInterval()`
+- `clearTimeout()`
+
+## Node Modules
+### Core modules
+- use `require()` method to include a module into the app
+#### `path` module
+  - `path.basename()`
+  - `path.join()`
+#### `util` module
+  -  `util.log()`
