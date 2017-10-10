@@ -24,3 +24,8 @@ This is a course from Lynda.com
 
 ### Argument Variables with process.argv
 - useful when want to specify certain file for the app in the beginning
+
+### Standard input and Standard output
+- `stdout`
+- `stdin`
+- ways to communicate with process
