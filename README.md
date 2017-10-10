@@ -44,3 +44,10 @@
   - `path.join()`
 #### `util` module
   -  `util.log()`
+
+### Readline Module
+  - `readline.createInterface()`
+  - `rl.question()`
+  - `rl.setPrompt()`
+  - `prompt()`
+  - `on()`
