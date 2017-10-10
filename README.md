@@ -18,5 +18,9 @@ This is a course from Lynda.com
 - Check versions in the website
 
 ## Node Core
+- Run NodeJS app in the Terminal using `node xx.js`
 ### The global object
 - [global object](https://nodejs.org/api/globals.html)
+
+### Argument Variables with process.argv
+- useful when want to specify certain file for the app in the beginning
