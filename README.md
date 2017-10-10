@@ -29,3 +29,8 @@ This is a course from Lynda.com
 - `stdout`
 - `stdin`
 - ways to communicate with process
+
+### Global timing functions
+- `setTimeout()`
+- `setInterval()`
+- `clearInterval()`
