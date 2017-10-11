@@ -70,3 +70,8 @@
 
 ### Creating child process with spawn
 - `spawn` for longer ongoing processes
+
+## The File System
+### Listing directory files
+- `fs` module to interact with the file system
+- asynchronously vs synchronously reading file 
