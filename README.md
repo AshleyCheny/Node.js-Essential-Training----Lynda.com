@@ -104,3 +104,8 @@
 - `stream.once()`
 - `stream.on('data')`
 - `stream.on('end')`
+
+### Writable file streams
+- `fs.createWriteStream()`
+-  `stream.write()`
+- `stream.close()`
