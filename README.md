@@ -83,3 +83,7 @@
 -  `fs.writeFile()`
 - `fs.writeFileSync()`
 - `fs.appendFile()`
+
+### Directory creation
+- `fs.mkdir()`
+- `fs.existsSync()`
