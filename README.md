@@ -62,4 +62,8 @@
 ### Exporting custom modules
 - Every JavaScript file is a module
 - Export the module so that other module can require it
-- Easier to reuse the module 
+- Easier to reuse the module
+
+### Creating child process with exec
+- communicate with external process/execute external processes
+- `require('child_process')`
