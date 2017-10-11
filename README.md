@@ -58,3 +58,8 @@
   - `util.inherits()`
   - `on()`
   - `emit()`
+
+### Exporting custom modules
+- Every JavaScript file is a module
+- Export the module so that other module can require it
+- Easier to reuse the module 
