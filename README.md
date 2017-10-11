@@ -67,3 +67,6 @@
 ### Creating child process with exec
 - communicate with external process/execute external processes
 - `require('child_process')`
+
+### Creating child process with spawn
+- `spawn` for longer ongoing processes
