@@ -98,3 +98,9 @@
 - `fs.readdirSync()`
 - `fs.unlinkSync()`
 - `fs.rmdir()`
+
+### Readable file streams
+- `fs.createReadStream()`
+- `stream.once()`
+- `stream.on('data')`
+- `stream.on('end')`
