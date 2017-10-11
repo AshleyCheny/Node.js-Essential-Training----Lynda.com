@@ -78,3 +78,8 @@
 
 ### Reading files
 - read the text file or read the file as binaries
+
+### Writing and appending files
+-  `fs.writeFile()`
+- `fs.writeFileSync()`
+- `fs.appendFile()`
