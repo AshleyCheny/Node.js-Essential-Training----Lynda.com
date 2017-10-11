@@ -1,5 +1,5 @@
 # NodeTraining
-[This is a course from Lynda.com]()
+[This is a course from Lynda.com](https://www.lynda.com/Node-js-tutorials/Renaming-removing-files/417077/454447-4.html)
 
 ## What is Node.js?
 ### Node.js history
@@ -87,3 +87,9 @@
 ### Directory creation
 - `fs.mkdir()`
 - `fs.existsSync()`
+
+### Renaming and removing files
+- `fs.renameSync()`
+- `fs.rename()`
+- `fs.unlinkSync()`
+- `fs.unlink()`
