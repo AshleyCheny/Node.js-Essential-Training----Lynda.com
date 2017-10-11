@@ -93,3 +93,8 @@
 - `fs.rename()`
 - `fs.unlinkSync()`
 - `fs.unlink()`
+
+### Renaming and removing directories
+- `fs.readdirSync()`
+- `fs.unlinkSync()`
+- `fs.rmdir()`
