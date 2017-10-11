@@ -51,3 +51,10 @@
   - `rl.setPrompt()`
   - `prompt()`
   - `on()`
+
+### Handling events with EventEmitter
+  - create custom events and their responding callbacks
+  - trigger the events
+  - `util.inherits()`
+  - `on()`
+  - `emit()`
