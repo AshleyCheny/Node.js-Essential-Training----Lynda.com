@@ -74,4 +74,7 @@
 ## The File System
 ### Listing directory files
 - `fs` module to interact with the file system
-- asynchronously vs synchronously reading file 
+- asynchronously vs synchronously reading file
+
+### Reading files
+- read the text file or read the file as binaries
