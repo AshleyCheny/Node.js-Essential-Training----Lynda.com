@@ -109,3 +109,8 @@
 - `fs.createWriteStream()`
 -  `stream.write()`
 - `stream.close()`
+
+## The HTTP Module
+### Making a request
+- `https/http` Module
+- `https.request()`
