@@ -169,4 +169,9 @@ Above is a pure NodeJS tutorial (w/o using libraries like Express.js)
 - `npm install express --save`
 - `CORS` stands for Cross Origin Resource Sharing
 - `cors` module
-- parse form variable using `body-parser` module 
+- parse form variable using `body-parser` module
+
+### Intro to Express
+- use middleware `app.use()`
+- `app.listen()`;
+- `module.exports = app`
