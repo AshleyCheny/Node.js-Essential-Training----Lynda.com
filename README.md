@@ -1,6 +1,5 @@
 # NodeTraining
 [This is a course from Lynda.com](https://www.lynda.com/Node-js-tutorials/Renaming-removing-files/417077/454447-4.html)
-- This is a pure NodeJS tutorial (w/o using libraries like Express.js)
 
 ## What is Node.js?
 ### Node.js history
@@ -129,4 +128,15 @@
 
 ### Collecting POST data
 - the server listens on the request's 'data' event and collect the form data
-- then send back the collected data 
+- then send back the collected data
+
+Above is a pure NodeJS tutorial (w/o using libraries like Express.js)
+
+============================================================================
+
+## Node Package Manger
+- [npm](https://www.npmjs.com/)
+### Installing npms locally
+- `npm install xxx`
+- will install the package under the folder
+- `npm remove xxx` or simply delete the node_module folder
