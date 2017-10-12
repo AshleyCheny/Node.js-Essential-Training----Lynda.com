@@ -10,6 +10,7 @@ http.createServer(function(req, res){
 
     res.end(JSON.stringify(data));
   } else if (req.url === '/instock') {
+    // request in stock object
     listInStock(res);
   } else if (req.url === '/onorder') {
     listOnBackOrder(res);
