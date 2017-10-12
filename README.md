@@ -155,3 +155,8 @@ Above is a pure NodeJS tutorial (w/o using libraries like Express.js)
 - run the command prompt as administrator
 - `npm install -g node-dev`
 - `node-dev xxx.js`
+
+### File servers with httpster
+- `httpster` module helps to server static content
+  - `httpster -p 3000 -d ./public/`
+  - create a website server 
