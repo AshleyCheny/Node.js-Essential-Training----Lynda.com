@@ -159,4 +159,14 @@ Above is a pure NodeJS tutorial (w/o using libraries like Express.js)
 ### File servers with httpster
 - `httpster` module helps to server static content
   - `httpster -p 3000 -d ./public/`
-  - create a website server 
+  - create a website server
+
+## Web servers
+- Express Framework
+### The package.json file
+- `npm init`
+- keep track of project dependencies
+- `npm install express --save`
+- `CORS` stands for Cross Origin Resource Sharing
+- `cors` module
+- parse form variable using `body-parser` module 
