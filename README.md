@@ -1,6 +1,13 @@
 # NodeTraining
 [This is a course from Lynda.com](https://www.lynda.com/Node-js-tutorials/Renaming-removing-files/417077/454447-4.html)
 
+- A Express Node Server includes the following:
+  - node_module (Libraries)
+  - Express App (using the Libraries)
+  - Static files (servered to the front end)
+    - Eg. Angular App
+  - DB
+
 ## What is Node.js?
 ### Node.js history
 - 2009: Node.js created
@@ -168,10 +175,14 @@ Above is a pure NodeJS tutorial (w/o using libraries like Express.js)
 - keep track of project dependencies
 - `npm install express --save`
 - `CORS` stands for Cross Origin Resource Sharing
-- `cors` module
+- `cors` module: any domain can make a request to the api
 - parse form variable using `body-parser` module
 
 ### Intro to Express
 - use middleware `app.use()`
 - `app.listen()`;
 - `module.exports = app`
+
+### Express routing and CORS
+- `app.get()`
+- `app.use(cors())`

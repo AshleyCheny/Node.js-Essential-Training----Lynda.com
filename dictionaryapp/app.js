@@ -1,8 +1,25 @@
 // create an express app
 // all the codes below will run line by line except those callback functions
 var express = require("express");
+var cors = require("cors");
 
 var app = express();
+
+// create an array of objects, want to use the data for the api
+var skierTerms = [
+    {
+        term: "Rip",
+        defined: "To move at a high rate of speed"
+    },
+    {
+        term: "Huck",
+        defined: "To throw your body off of something, usually a natural feature like a cliff"
+    },
+    {
+        term: "Chowder",
+        defined: "Powder after it has been sufficiently skied"
+    }
+];
 
 // middleware
 
@@ -17,6 +34,13 @@ app.use(function(req, res, next){
 // any file requested under the public folder will be servered
 // files under the public folder will be sent to the browser
 app.use(express.static('./public'));
+
+// use cors middleware, so that any domain can make request to the following api
+app.use(cors());
+// set up a get route
+app.get('/dictionary-api', function(req, res){
+  res.json(skierTerms);
+});
 
 app.listen(3002);
 
