@@ -2,6 +2,7 @@
 // all the codes below will run line by line except those callback functions
 var express = require("express");
 var cors = require("cors");
+var bodyParser = require("body-parser");
 
 var app = express();
 
@@ -22,11 +23,14 @@ var skierTerms = [
 ];
 
 // middleware
+// Parse incoming request bodies in a middleware before your handlers, available under the req.body property.
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}));
 
 // custom middleware
 // when the app is used, run the callback function
 app.use(function(req, res, next){
-  console.log(`${ req.method } request for ${ req.url }`);
+  console.log(`${ req.method } request for ${ req.url } - ${ JSON.stringify(req.body)}`);
   // we have to invoke the next() function to tell the app to go to the next
   next();
 });
@@ -42,6 +46,21 @@ app.get('/dictionary-api', function(req, res){
   res.json(skierTerms);
 });
 
+// set up a post route
+app.post('/dictionary-api', function(req, res){
+  skierTerms.push(req.body);
+  res.json(skierTerms);
+});
+
+// set up a delete route
+app.delete('/dictionary-api/:term', function(req, res){
+  // use array filter function
+  skierTerms = skierTerms.filter(function(definition){
+    return definition.term.toLowerCase() !== req.params.term.toLowerCase();
+  });
+
+  res.json(skierTerms);
+});
 app.listen(3002);
 
 console.log("Express app running on port 3002");

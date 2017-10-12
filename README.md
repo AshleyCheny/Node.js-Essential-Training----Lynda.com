@@ -178,7 +178,8 @@ Above is a pure NodeJS tutorial (w/o using libraries like Express.js)
 - `cors` module: any domain can make a request to the api
 - parse form variable using `body-parser` module
 
-### Intro to Express
+### [Intro to Express](http://expressjs.com/en/api.html)
+- Check the DOCUMENTATION to understand the usage of different methods (all based on JavaScript)
 - use middleware `app.use()`
 - `app.listen()`;
 - `module.exports = app`
@@ -186,3 +187,6 @@ Above is a pure NodeJS tutorial (w/o using libraries like Express.js)
 ### Express routing and CORS
 - `app.get()`
 - `app.use(cors())`
+
+### Express post bodies and params
+- `body-parser` 
