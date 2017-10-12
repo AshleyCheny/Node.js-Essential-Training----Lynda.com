@@ -140,3 +140,13 @@ Above is a pure NodeJS tutorial (w/o using libraries like Express.js)
 - `npm install xxx`
 - will install the package under the folder
 - `npm remove xxx` or simply delete the node_module folder
+
+### Installing npms globally on a Mac
+- Any module that will be used across the whole application should be installed globally
+- install `node-dev` module globally `sudo npm install -g node-dev`
+- add to user local folder
+- `node-dev app.js`
+
+- install `jshint` module globally `sudo npm install -g jshint`
+- `jshint app.js`
+- `/* jshint esnext: true */`
