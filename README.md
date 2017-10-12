@@ -121,3 +121,7 @@
 
 ### Serving files
 - respond the file back to the browser
+
+### Serving JSON data
+- api returns json object to the browser
+- `JSON.stringify()`
