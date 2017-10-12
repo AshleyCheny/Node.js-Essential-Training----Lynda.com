@@ -117,4 +117,7 @@
 
 ### Build a web server
 - HTTP Web Server vs HTTPS Web Server
-- using `http` or `https` module 
+- using `http` or `https` module
+
+### Serving files
+- respond the file back to the browser
