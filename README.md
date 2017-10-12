@@ -150,3 +150,8 @@ Above is a pure NodeJS tutorial (w/o using libraries like Express.js)
 - install `jshint` module globally `sudo npm install -g jshint`
 - `jshint app.js`
 - `/* jshint esnext: true */`
+
+### Install npms globally on PC
+- run the command prompt as administrator
+- `npm install -g node-dev`
+- `node-dev xxx.js`
