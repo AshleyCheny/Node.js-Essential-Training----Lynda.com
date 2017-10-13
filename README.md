@@ -240,3 +240,7 @@ vs.
 - inject a mock up console.log without showing the text on the terminal
 
 ### Advanced testing Sinon stubs*
+
+### Code coverage with Istanbul
+- `npm install -g istanbul --save-dev`
+- `istanbul cover _mocha`
