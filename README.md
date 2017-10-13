@@ -212,7 +212,7 @@ vs.
 - server side: use `socket.io` module
 - client side: use socket.io client library
 
-## Testing and Debugging
+## Testing and Debugging*
 ### Testing with mocha and Chai Testing Frameworks
 - [mocha](https://mochajs.org/) (unit testing)
   - install `mocha` globally
@@ -235,6 +235,8 @@ vs.
 - `rewire` module
 - Eg. inject fake data instead of using the real data
 
-### Advanced testing Sinon Spies
+### Advanced testing Sinon Spies*
 - `sinon` module
 - inject a mock up console.log without showing the text on the terminal
+
+### Advanced testing Sinon stubs*
