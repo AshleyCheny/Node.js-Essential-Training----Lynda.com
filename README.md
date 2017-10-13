@@ -234,3 +234,7 @@ vs.
 ### Injecting dependencies with rewire
 - `rewire` module
 - Eg. inject fake data instead of using the real data
+
+### Advanced testing Sinon Spies
+- `sinon` module
+- inject a mock up console.log without showing the text on the terminal
