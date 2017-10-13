@@ -211,3 +211,14 @@ vs.
 - roll back to "long polling" when the browser does not support web socket
 - server side: use `socket.io` module
 - client side: use socket.io client library
+
+## Testing and Debugging
+### Testing with mocha and Chai Testing Frameworks
+- [mocha](https://mochajs.org/) (unit testing)
+  - install `mocha` globally
+  - run `mocha`
+  - create test folder
+  - test-driven environment
+    - run the test first
+    - watch the test failure
+    - write the files to make the test pass
