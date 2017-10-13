@@ -230,3 +230,7 @@ vs.
 ### Mocking a server with Nock
 - Eg. mock wikipedia server so whiling testing there is no need to wait
 - `nock` module
+
+### Injecting dependencies with rewire
+- `rewire` module
+- Eg. inject fake data instead of using the real data
