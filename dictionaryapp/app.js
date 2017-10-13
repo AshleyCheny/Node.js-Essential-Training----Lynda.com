@@ -63,7 +63,7 @@ app.delete('/dictionary-api/:term', function(req, res){
 });
 app.listen(3002);
 
-console.log("Express app running on port 3002");
+console.log("Ski app running on port 3002");
 
 // export the app module for testing
 module.exports = app;

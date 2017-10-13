@@ -37,7 +37,10 @@ module.exports = function(grunt) {
 			scripts: {
 				files: ["app-client.js", "lib/*.js"],
 				tasks: ["jshint", "browserify"]
-			}
+			},
+			options: {
+        livereload: true,
+    	}
 		}
 	});
 
