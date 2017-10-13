@@ -244,3 +244,7 @@ vs.
 ### Code coverage with Istanbul
 - `npm install -g istanbul --save-dev`
 - `istanbul cover _mocha`
+
+### Testing HTTP endpoints with Supertest
+
+### Checking server responses with Cheerio
