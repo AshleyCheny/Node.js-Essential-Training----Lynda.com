@@ -10,14 +10,19 @@ ws.onclose = function(){
   setTitle("Disconnected");
 };
 
+// if the clients get messages from the server, run the callback function
 ws.onmessage = function(payload){
-  // and the coming messages to the DOM
+  // add the coming messages to the DOM
   printMessage(payload.data);
 };
 
 
 document.forms[0].onsubmit = function () {
     var input = document.getElementById('message');
+
+    // collection new message and send it back to the socket server
+    ws.send(input.value);
+
     input.value = '';
 };
 

@@ -200,3 +200,7 @@ vs.
   - Sync data to all open connections, so client can easily broadcast changes to all connections
   - Not even web client but also any other application
 -  `WS` module to create the WebSocket server
+
+### Broadcast messages with WebSockets
+- the client sends message to the server
+- the server gets the message and broadcast it to all its connected clients
