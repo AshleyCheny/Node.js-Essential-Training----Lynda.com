@@ -250,6 +250,10 @@ vs.
 ### Checking server responses with Cheerio
 
 ## Automation and Deployment
+- Watch changes(.js, .less, .html)
+- Update bundle files/converted files
+- restart server
+- reload the web page in the browser
 ### Hinting codes with Grunt
 - JavaScript Task Runner
 - `grunt-cli` module
@@ -264,3 +268,9 @@ vs.
 
 ### Bundling client JavaScript scripts with Grunt Browserify
 - `grunt-browserify`
+
+### Rapid development with Grunt
+- Watches
+- `npm install grunt-contrib-watch --save-dev`
+- `grunt watch` in one terminal
+- `node app` in another terminal
