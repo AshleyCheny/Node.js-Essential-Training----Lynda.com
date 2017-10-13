@@ -204,3 +204,10 @@ vs.
 ### Broadcast messages with WebSockets
 - the client sends message to the server
 - the server gets the message and broadcast it to all its connected clients
+
+### Creating WebSockets with Socket.io
+- Not all browsers support WebSocket
+- `socket.io` is a module that help to build WebSocket
+- roll back to "long polling" when the browser does not support web socket
+- server side: use `socket.io` module
+- client side: use socket.io client library
