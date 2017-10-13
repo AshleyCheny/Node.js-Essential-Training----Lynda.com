@@ -255,3 +255,9 @@ vs.
 - `grunt-cli` module
 - `grunt` module
 - `grunt-contrib-jshint` module
+
+### Converting LESS/SASS to CSS with Grunt
+- create the less files
+- convert the less files into css files using grunt
+- `grunt-contrib-less` plugin will convert less to css
+- `grunt-autoprefixer` plugin will add prefixer for the css propertites and values
