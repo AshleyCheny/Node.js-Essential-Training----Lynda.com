@@ -248,3 +248,10 @@ vs.
 ### Testing HTTP endpoints with Supertest
 
 ### Checking server responses with Cheerio
+
+## Automation and Deployment
+### Hinting codes with Grunt
+- JavaScript Task Runner
+- `grunt-cli` module
+- `grunt` module
+- `grunt-contrib-jshint` module
