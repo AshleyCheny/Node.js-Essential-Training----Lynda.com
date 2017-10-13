@@ -189,4 +189,14 @@ Above is a pure NodeJS tutorial (w/o using libraries like Express.js)
 - `app.use(cors())`
 
 ### Express post bodies and params
-- `body-parser` 
+- `body-parser`
+
+## WebSockets
+### Create a WebSocket server
+- Long Polling (check if the server info has changed)
+vs.
+- [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+  - Create a two way connection to a socket
+  - Sync data to all open connections, so client can easily broadcast changes to all connections
+  - Not even web client but also any other application
+-  `WS` module to create the WebSocket server
