@@ -225,4 +225,8 @@ vs.
 
 ### Asynchronous mocha testing
 - downloading a file
-- callback functions 
+- callback functions
+
+### Mocking a server with Nock
+- Eg. mock wikipedia server so whiling testing there is no need to wait
+- `nock` module
